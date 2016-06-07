@@ -17,7 +17,7 @@
 .social i {
     width: 40px;
     height: 40px;
-    color: #FFF;
+    color: #fff;
     background-color: #909AA0;
     font-size: 22px;
     text-align:center;
@@ -122,7 +122,19 @@
 .social .fa-youtube-play:hover {
     background: #DF192A;
 }
-.sidebar-skillset{
+.sidebar-skillset-font{
     font-size: large;
     
+}
+.sidebar-skillset-length{
+    width:48%;
+}
+
+#footer-error-message{
+    color: rgb(255,0,0);
+    margin:3px;
+    padding:3px;
+}
+.text-optional{
+    font-weight: normal;
 }

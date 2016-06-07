@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Shawn Feng | Personal Page</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">    
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">    
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -29,8 +31,9 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height:1px;">
                 <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">Home</a>
+                    <li>
+                        <!-- class="active" -->
+                        <a href="#home">Home</a>
                     </li>
                     <li>
                         <a href="#about">About</a>
@@ -42,42 +45,50 @@
             </div>
         </div>
     </nav>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <div class="container" style="text-align:center;">
+    <div id="home" class="container" style="text-align:center;">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <h1>Welcome to Shawn's portfolio page</h1>
         <p class="lead">If you would like a copy of his most current resume,
             <br/>please click button below.</p>
-        <a href="file/resume_shawnfeng">
+        <a href="https://s3.amazonaws.com/aws-website-personalpage-kln3k/ShawnFeng.pdf">
             <button type="button" class="btn btn-lg btn-danger">Download Resume</button>
         </a>
     </div>
     <br/>
     <br/>
+    <br/>
+    <br/>
     <div class="container">
         <div class="col-sm-2">
-            </div>
+        </div>
         <div class="col-sm-8">
-        <ul style="text-align:center;" class="list-inline">
-            <li><a href="https://www.linkedin.com/in/shawnshifeng" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/ShawnShiFeng" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
-            <li><a href="https://www.facebook.com/shi.feng.378" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/Shawnsfeng" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/115159309565219123344/posts" target="_blank"><i class="fa fa-lg fa-google-plus"></i></a></li>
-        </ul>
+            <ul style="text-align:center;" class="list-inline social">
+                <li><a href="https://www.linkedin.com/in/shawnshifeng" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/ShawnShiFeng" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/shi.feng.378" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/Shawnsfeng" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/115159309565219123344/posts" target="_blank"><i class="fa fa-lg fa-google-plus"></i></a></li>
+            </ul>
         </div>
         <div class="col-sm-2">
-            
+
         </div>
     </div>
+    <br/>
+    <br/>
+    <br/>
     <br/>
     <br/>
     <br/>
@@ -148,14 +159,14 @@
                 <h3>
                     Skill sets
                 </h3>
-                <p style="margin:0;" class="sidebar-skillset">
+                <p style="margin:0;" class="sidebar-skillset-font">
                     Programming languages
                 </p>
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th class="col-sm-5">Skill name</th>
-                            <th>Proficiency (out of 10)</th>
+                            <th class="sidebar-skillset-length">Skill name</th>
+                            <th class="sidebar-skillset-length">Proficiency (out of 10)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -202,8 +213,8 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th class="col-sm-5">Skill name</th>
-                            <th>Proficiency (out of 10)</th>
+                            <th class="sidebar-skillset-length">Skill name</th>
+                            <th class="sidebar-skillset-length">Proficiency (out of 10)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -238,13 +249,12 @@
                     </tbody>
                 </table>
                 <p style="margin:0;" class="skill_set">
-
                     Version control, software dev and testing management tools </p>
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th class="col-sm-5">Skill name</th>
-                            <th>Proficiency (out of 10)</th>
+                            <th class="sidebar-skillset-length">Skill name</th>
+                            <th class="sidebar-skillset-length">Proficiency (out of 10)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -289,15 +299,12 @@
         <div class="col-sm-12">
             <br/>
             <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             <h3>Contact</h3>
             <p>Please feel free to contact Shawn through</p>
-            <a href="mailto:shawnsfeng@gmail.com?subject=From%personal%webpage" class="btn btn-info btn-lg btn-danger" onlick=>
-                <span class="glyphicon glyphicon-envelope"></span> shawnsfeng@gmail.com
+            <a href="mailto:shawnsfeng@gmail.com"> 
+            <button class="btn btn-info btn-lg btn-danger">
+                <span class="glyphicon glyphicon-envelope"></span> shawnsfeng@gmail.com</button> 
+        
             </a>
             <br/>
             <br/>
@@ -305,47 +312,51 @@
             <br/>
             <p>Leave your personal contact info and message below</p>
 
-            <form name="form1"  onsubmit="submit_validation(this.name);" style="text-align:left" >
-                <fieldset class="form-group">
+            <form name="form1"  style="text-align:left"   action="https://getsimpleform.com/messages?form_api_token=f5681b762eecd02241f2518ab897446f" method="post" onsubmit="return submission_validation();" >
+                <input type='hidden' name='redirect_to' value='http://shawnfeng.com' />
+                <fieldset class="form-group" name="gourp1">
                     <label for="input_fullName">Full name</label>
-                    <input type="text" class="form-control" id="input_fullname" placeholder="Enter full name">
+                    <input type="text" class="form-control" id="input_fullname1" name="input_fullname1" placeholder="Enter full name">
                 </fieldset>
                 <fieldset class="form-group">
                     <label for="input_email">Email address</label>
-                    <input type="email" class="form-control" id="input_email" placeholder="Enter email">
+                    <input type="email" class="form-control" id="input_email1" name="input_email1" placeholder="Enter email">
                 </fieldset>
                 <fieldset class="form-group">
                 </fieldset>
                 <fieldset class="form-group">
-                    <label for="text_message">Message</label>
-                    <textarea class="form-control" id="text_message" rows="3"></textarea>
+                    <label for="text_message">Message <span class="text-optional">(optional)</span></label>
+                    <textarea class="form-control" id="text_message1" name="text_message1" rows="3"></textarea>
                 </fieldset>
-                <fieldset class="form-group">
-                    <label for="input_file">Attachment</label>
-                    <input type="file" class="form-control-file" id="input_file">
+                
+                <fieldset class="form-group"><!--
+                    <label for="input_file">Attachment <span class="text-optional">(optional)</span></label>
+                    <input type="file" class="form-control-file" id="input_file1" name="input_file1">
                     <small class="text-muted"><br/></small>
+                    -->
+                <span id="footer-error-message" name="error_message1"></span>
                 </fieldset>
+                <!--
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox"> Shawn will never share any of your information with others
+                        <input type="checkbox"> Want to receive periodic update from Shawn
                     </label>
                 </div>
+                -->
                 <button type="submit" class="btn btn-primary">Send Message</button>
-                        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             </form>
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-                <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-                <script src="js/myjavascript.js"></script>
-        <script src="js/npm.js"></script>
+                <br/>
+                <br/>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="js/myjavascript.js"></script>
+            <script src="js/npm.js"></script>
 </body>
 
 </html>
